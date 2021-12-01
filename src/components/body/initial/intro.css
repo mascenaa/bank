@@ -1,0 +1,54 @@
+.initial {
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    margin-bottom: 4rem;
+    background-color: #f1f1f1;
+}
+.intro, .intro-hand {
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+.initialTitle {
+    color: #FFB359;
+    font-weight: normal;
+    font-size: 50px;
+    padding-bottom: 2px;
+    margin-bottom: 0rem;
+    background-image: linear-gradient(90deg, #FFB359, #ff7b00);
+    background-size: 5% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 50%;
+}.initialTitle:hover {
+    background-size: 70% 3px;
+    transition: background-size 1s ease-in-out;
+}
+.subTitle {
+    margin-top: .2rem;
+    font-weight: normal;
+    font-size: 53px;
+    width: 30%;
+}
+
+.redirect-login {
+    display: flex;
+}
+.login-button{
+    margin-top: -1.65rem;
+    padding: 0;
+    color: #52525C;
+    text-decoration: none;
+}
+.login-button:hover {
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: margin 1s ease-in-out;
+}
+#hand {
+    margin-left: 15rem;
+}
+#arrow {
+    margin-top: -2rem;
+}

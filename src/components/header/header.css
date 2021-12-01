@@ -1,0 +1,21 @@
+.header {
+    position: sticky;
+    z-index: 1000;
+    border-bottom: 2px solid #0000001f;
+}
+.header-body {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.header-nav {
+    list-style: none;
+    display: flex;
+    width: 25%;
+}
+.header-nav--item {
+    margin-right: 1rem;
+}
+#logo {
+    user-select: none;
+}

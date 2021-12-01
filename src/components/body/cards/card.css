@@ -1,0 +1,30 @@
+.cardBody {
+    height: fit-content;
+    background-color: #f0f0f0 ;
+}.cardArea {
+    display: flex;
+}.cardHead {
+    padding: 10rem;
+}.card{
+    margin-right: 5rem;
+    margin-bottom: -1rem;
+}.cardName{
+    font-size: 26px;
+}.cardTitle {
+    color: #FFB359;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+
+#Normal {
+    background: linear-gradient(90deg, #C79081 0%, #DFA579 100%);
+    background-clip: text;
+    color: transparent;
+}#Silver {
+    background: linear-gradient(90deg, #828a8f 0%, #DCE1E3 100%);
+    background-clip: text;
+    color: transparent;
+}#Black {
+    color:#242121;
+}
